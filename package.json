@@ -1,0 +1,30 @@
+{
+  "name": "screenshot-skill",
+  "version": "0.1.0",
+  "description": "Agent skill wrapping a zero-setup macOS screenshot CLI (uv/PEP 723, mss + Pillow): monitor/region capture, crop, resize, rotate, flip, format/quality, filters and enhancements",
+  "keywords": [
+    "agent-skills",
+    "skill",
+    "claude-code",
+    "screenshot",
+    "screen-capture",
+    "macos",
+    "mss",
+    "pillow"
+  ],
+  "license": "MIT",
+  "author": "Stan <zyyu@umich.edu> (https://github.com/stanfish06)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanfish06/screenshot-skill.git"
+  },
+  "homepage": "https://github.com/stanfish06/screenshot-skill#readme",
+  "bugs": {
+    "url": "https://github.com/stanfish06/screenshot-skill/issues"
+  },
+  "files": [
+    "skills",
+    "LICENSE",
+    "README.md"
+  ]
+}
