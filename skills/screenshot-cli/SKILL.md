@@ -1,6 +1,6 @@
 ---
 name: screenshot-cli
-description: Use when the user's macOS screen must be captured — the full desktop, one monitor, or a pixel region — or when a screen capture needs cropping, resizing, rotation, flipping, format conversion (png/jpeg/webp), quality control, or filters/enhancement; also when you need to enumerate connected monitors and their geometry. Not for browser-page screenshots (use claude-in-chrome).
+description: Use when the user's host screen must be captured — the full desktop, one monitor, or a pixel region — or when a screen capture needs cropping, resizing, rotation, flipping, format conversion (png/jpeg/webp), quality control, or filters/enhancement; also when you need to enumerate connected monitors and their geometry. Not for browser-page screenshots (use claude-in-chrome).
 ---
 
 # Screenshot CLI
@@ -43,8 +43,6 @@ uv run $S -m 1 -r 100,100,800,600 -f jpeg -q 70 --resize 50% -o region.jpg
 
 ## Gotchas
 
-- Requires macOS Screen Recording permission for the host terminal app;
-  without it captures come back blank/black, not an error.
 - `-q` is silently ignored for png/bmp/tiff.
 - `--list-monitors` reports geometry only. To identify which index is the
   built-in display, cross-reference `system_profiler SPDisplaysDataType -json`
