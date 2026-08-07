@@ -56,8 +56,6 @@ the full reference.
 
 ## Requirements
 
-- macOS (multi-monitor supported); the host terminal needs Screen Recording
-  permission — without it captures are silently blank
 - [`uv`](https://docs.astral.sh/uv/) and Python ≥ 3.12 (fetched by uv if absent)
 
 ## License
