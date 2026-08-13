@@ -1,9 +1,8 @@
 # screenshot-skill
 
 An [agent skill](https://agentskills.io) that gives coding agents (Claude
-Code, Cursor, Codex, OpenCode, …) a reliable way to capture and post-process
-macOS screenshots — without the `screencapture` Retina points-vs-pixels trap
-or `sips`'s silent center-cropping.
+Code, Cursor, Codex, OpenCode, …) a reliable way to capture and post-process 
+screenshots.
 
 The skill wraps `screenshot.py`, a self-contained [PEP 723](https://peps.python.org/pep-0723/)
 script (mss + Pillow). [`uv`](https://docs.astral.sh/uv/) resolves its
